@@ -1,4 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using ApiGestionDePersone.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<ApiGestionDePersoneContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("ApiGestionDePersoneContext") ?? throw new InvalidOperationException("Connection string 'ApiGestionDePersoneContext' not found.")));
 
 // Add services to the container.
 
