@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{EB857898-0B4D-4039-BF75-EAEF3C10130A}|https">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ApiGestionDePersone/Modele/Persone.cs">
+    <Files>
+      <File FileName="ApiGestionDePersone/Modele/Persone.cs" Line="7" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ApiGestionDePersone" expanded="True">
+            <Node name="ApiGestionDePersone" expanded="True">
+              <Node name="Modele" expanded="True">
+                <Node name="Persone.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ApiGestionDePersone PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

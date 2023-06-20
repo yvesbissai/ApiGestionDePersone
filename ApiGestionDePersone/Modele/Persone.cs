@@ -16,4 +16,10 @@ public class Persone
     [Required]
     [MinLength(2),MaxLength(10)]
     public string? Nom { get; set; }
+
+    public Persone(string nom, string prenom)
+    {
+        Prenom = prenom;
+        Nom = nom;
+    }
 }
